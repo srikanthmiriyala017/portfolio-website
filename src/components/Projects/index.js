@@ -17,6 +17,11 @@ const Projects = () => (
               <ProjectCard projectDetails={eachItem} key={eachItem.id} />
             ))}
           </div>
+          <img
+            src="https://iili.io/J5LuC79.png"
+            alt="Footer"
+            className="footer"
+          />
         </div>
       )
     }}
