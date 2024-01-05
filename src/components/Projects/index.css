@@ -1,0 +1,22 @@
+.projectsPageTitle {
+  height: 72px;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  color: #25282b;
+}
+.underline2 {
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #fdc435;
+  margin-bottom: 45px;
+}
+
+.responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

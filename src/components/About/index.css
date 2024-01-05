@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,bold,italic&subset=latin,latin-ext');
+
+.box1 {
+  width: 486px;
+  text-align: left;
+  margin-left: 8vw;
+  margin-top: 55px;
+  gap: 12px;
+}
+* {
+  margin: 0px;
+}
+
+.role {
+  height: 27px;
+  font-family: 'Nunito';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #fdc435;
+  margin-bottom: 12px;
+}
+
+.greetings {
+  font-family: 'Playfair Display';
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: 0em;
+  height: 154px;
+}
+
+.body {
+  font-family: 'Nunito';
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #828282;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.projectsButton {
+  width: 115px;
+  height: 43px;
+  padding: 8px, 24px, 8px, 24px;
+  margin-right: 8px;
+  border-radius: 8px;
+  background: #fdc435;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #25282b;
+  margin-top: 12px;
+  border-style: none;
+}
+
+.LinkedInButton {
+  width: 117px;
+  height: 43px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 8px;
+  border: 2px;
+  border: 2px solid #25282b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #25282b;
+}
+
+.formTitle {
+  width: 100%;
+  gap: 4px;
+  height: 72px;
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.underline {
+  background-color: #fdc435;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  margin-left: 230px;
+  margin-top: 7px;
+}
+
+.formBox {
+  width: 400px;
+  height: 445px;
+  gap: 24px;
+  margin-top: 52px;
+  text-align: left;
+}
+label {
+  width: 99px;
+  height: 22px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #25282b;
+}
+input {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #e8ecf4, #e8ecf4);
+  border: 1px solid #e8ecf4;
+  font-size: large;
+  margin-top: 8px;
+  margin-bottom: 19px;
+  padding-left: 5px;
+}
+textArea {
+  width: 400px;
+  height: 160px;
+  border-radius: 8px;
+  border: 1px;
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #e8ecf4, #e8ecf4);
+  border: 1px solid #e8ecf4;
+  font-size: large;
+  font-family: 'Roboto';
+  margin-bottom: 19px;
+  padding: 5px;
+}
+.addBtn {
+  width: 81px;
+  height: 43px;
+  padding: 8px, 24px, 8px, 24px;
+  border-radius: 8px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #25282b;
+  background-color: #fdc435;
+  margin-left: 81%;
+  border-style: none;
+}
+
+.box2 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+  position: fixed center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Vector {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    background-image: url('https://iili.io/J54qjGj.md.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 45%;
+  }
+}
