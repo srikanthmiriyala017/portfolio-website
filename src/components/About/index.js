@@ -9,7 +9,7 @@ const About = () => (
     <div className="box1">
       <h1 className="role">UI/UX Designer</h1>
       <div>
-        <h1 className="greetings">Hello, my name is Madelyn Torff</h1>
+        <h1 className="greetings">Hello, my name is Srikanth Miriyala</h1>
         <p className="body">
           Short text with details about you, what you do or your professional
           career. You can add more information on the about page.
