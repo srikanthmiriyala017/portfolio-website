@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 const Header = () => (
   <div className="header">
-    <h1 className="name">Madelyn Torff</h1>
+    <h1 className="name">Miryala Srikanth</h1>
     <ul>
       <li>
         <Link to="/">
